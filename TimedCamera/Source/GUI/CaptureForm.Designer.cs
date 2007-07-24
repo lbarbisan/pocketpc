@@ -47,6 +47,7 @@ namespace RobotAgent.GUI
             this.ptcCamera.Location = new System.Drawing.Point(0, 0);
             this.ptcCamera.Name = "ptcCamera";
             this.ptcCamera.Size = new System.Drawing.Size(240, 294);
+            this.ptcCamera.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             // 
             // CaptureForm
             // 

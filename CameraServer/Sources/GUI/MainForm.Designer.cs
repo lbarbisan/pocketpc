@@ -29,35 +29,37 @@ namespace CameraClient
         private void InitializeComponent()
         {
             this.pctCamera = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCapture = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pctCamera)).BeginInit();
             this.SuspendLayout();
             // 
             // pctCamera
             // 
-            this.pctCamera.Location = new System.Drawing.Point(141, 22);
+            this.pctCamera.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pctCamera.Location = new System.Drawing.Point(0, 0);
             this.pctCamera.Name = "pctCamera";
-            this.pctCamera.Size = new System.Drawing.Size(78, 73);
+            this.pctCamera.Size = new System.Drawing.Size(292, 266);
+            this.pctCamera.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctCamera.TabIndex = 0;
             this.pctCamera.TabStop = false;
             // 
-            // button1
+            // btnCapture
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button1.Location = new System.Drawing.Point(0, 220);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(292, 46);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCapture.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnCapture.Location = new System.Drawing.Point(0, 220);
+            this.btnCapture.Name = "btnCapture";
+            this.btnCapture.Size = new System.Drawing.Size(292, 46);
+            this.btnCapture.TabIndex = 1;
+            this.btnCapture.Text = "Capture";
+            this.btnCapture.UseVisualStyleBackColor = true;
+            this.btnCapture.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(292, 266);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCapture);
             this.Controls.Add(this.pctCamera);
             this.Name = "MainForm";
             this.Text = "PocketPc Camera";
@@ -69,7 +71,7 @@ namespace CameraClient
         #endregion
 
         private System.Windows.Forms.PictureBox pctCamera;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCapture;
     }
 }
 
