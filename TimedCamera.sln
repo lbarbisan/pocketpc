@@ -12,6 +12,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CameraCaptureDLL", "CameraC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraClient", "CameraServer\CameraClient.csproj", "{97EE4C3F-A65A-4364-934D-B8ACC1941A95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialBluetooth", "SerialBluetooth\SerialBluetooth.csproj", "{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +80,22 @@ Global
 		{97EE4C3F-A65A-4364-934D-B8ACC1941A95}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{97EE4C3F-A65A-4364-934D-B8ACC1941A95}.Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Release|Any CPU
 		{97EE4C3F-A65A-4364-934D-B8ACC1941A95}.Release|Windows Mobile 5.0 Smartphone SDK (ARMV4I).ActiveCfg = Release|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Debug|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Debug|Windows Mobile 5.0 Smartphone SDK (ARMV4I).ActiveCfg = Debug|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Release|Any CPU
+		{373DFF8F-B71A-48BC-B8EC-31C0D30E59D6}.Release|Windows Mobile 5.0 Smartphone SDK (ARMV4I).ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
